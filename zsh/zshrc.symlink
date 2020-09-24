@@ -29,26 +29,26 @@ export PATH=$PATH:$GOPATH/bin
 export PATH="$PATH:$HOME/.yarn/bin"
 
 # Fastlane
-export PATH="$HOME/.fastlane/bin:$PATH"
+# export PATH="$HOME/.fastlane/bin:$PATH"
 
 # python
 # export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # nvm
-export NVM_DIR="$HOME/.nvm"
-export NVM_LAZY_LOAD=true
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#export NVM_DIR="$HOME/.nvm"
+#export NVM_LAZY_LOAD=true
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # nvm-auto-switch
-command -v nvm_auto_switch >/dev/null && nvm_auto_switch
+# command -v nvm_auto_switch >/dev/null && nvm_auto_switch
 
 # thefuck
-command -v thefuck >/dev/null && eval "$(thefuck --alias)"
+# command -v thefuck >/dev/null && eval "$(thefuck --alias)"
 
 # autojump-zsh
 [[ -s /usr/share/autojump/autojump.zsh ]] && . /usr/share/autojump/autojump.zsh
 
 # zsh-autosuggestions
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan"
+#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan"
